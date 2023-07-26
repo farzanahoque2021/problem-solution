@@ -1,3 +1,4 @@
+// solution of task 8 (to find the second smallest element in an array of numbers)
 function secondSmallest(value) {
     let sorted = value.sort((a, b) => a - b);
     let result = sorted[1];

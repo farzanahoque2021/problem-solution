@@ -1,3 +1,4 @@
+// solution of task 6 (a program that generates a random password of a specified length)
 function generatePassword() {
     let chars = "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let passwordLength = 8;

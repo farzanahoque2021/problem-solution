@@ -1,3 +1,4 @@
+// solution of task 1(a function that takes a string as input and returns the reversed version of the string without using the built-in reverse() method)
 function reverseString(value) {
     let reverse = [...value];
     let reverseString = [];
@@ -8,5 +9,5 @@ function reverseString(value) {
 
 }
 
-let result = reverseString("Farzana")
-console.log(result)
+// let result = reverseString("Farzana")
+// console.log(result)

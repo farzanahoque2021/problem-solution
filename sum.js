@@ -1,3 +1,4 @@
+// solution of task 2 (a function that takes an array of numbers as input and returns the sum of all positive numbers in the array)
 function sum(value) {
     let positiveArray = [];
     for (let i = 0; i <= value.length; i++) {
@@ -9,6 +10,6 @@ function sum(value) {
     return result;
 }
 
-let input = [10, 20, 30, 40, -50];
-let result = sum(input);
-console.log(result)
+// let input = [10, 20, 30, 40, -50];
+// let result = sum(input);
+// console.log(result)

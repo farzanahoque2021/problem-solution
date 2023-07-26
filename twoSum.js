@@ -1,3 +1,4 @@
+// solution of task 4
 function twoNumberSum(array, targetSum) {
     let indices = [];
     for (let i = 0; i < array.length; i++) {
@@ -12,4 +13,4 @@ function twoNumberSum(array, targetSum) {
     return `${indices}`;
 }
 
-console.log(twoNumberSum([1, 3, 6, 8, 11, 15], 9))
+// console.log(twoNumberSum([1, 3, 6, 8, 11, 15], 9))

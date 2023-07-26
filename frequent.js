@@ -1,3 +1,4 @@
+// solution of task 3(program to find the most frequent element in an array and return it)
 function mostFrequent(arr) {
     arr.sort();
     let maxCount = 1, result = arr[0];
@@ -20,5 +21,5 @@ function mostFrequent(arr) {
     return result;
 }
 
-let arr = [3, 5, 2, 5, 3, 3, 1, 4, 5];
-console.log(mostFrequent(arr))
+// let arr = [3, 5, 2, 5, 3, 3, 1, 4, 5];
+// console.log(mostFrequent(arr))
